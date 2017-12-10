@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Sticky footer styles -------------------------------------------------- */
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+.navbar-nav>li>a,
+.navbar-brand,
+.navbar-text {
+  color: #cccccc;
+}
+
+.navbar-nav>li>a.active {
+  color: white;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.btn-space {
+  margin-right: 5px;
+}
+
+div.white-space-pre-line {
+  white-space: pre-line;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body>.container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #dddddd;
+}
+
+code {
+  font-size: 80%;
+}
+
+.success {
+  color: mediumseagreen;
+}
+
+.badge-success {
+  background-color: mediumseagreen;
+}
+
+.badge-warning {
+  background-color: orange;
+}
+
+.danger {
+  color: #d9534f;
+}
+
+.badge-danger {
+  background-color: #d9534f;
+}
+
+.larger {
+  font-size: 1.2em;
+}
+
+.btn-space {
+  margin-right: 5px;
+}
+
+
+/* Behoudt newlines in HTML display */
+
+.code-with-newlines {
+  white-space: pre-wrap;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #c7254e;
+  border: 1px solid #bbbbbb;
+}

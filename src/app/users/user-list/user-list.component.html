@@ -1,0 +1,31 @@
+<div class="page-header">
+  <button class="btn btn-success pull-right" (click)="onNewUser()">
+    <span class="glyphicon glyphicon-plus"></span>
+    New user
+  </button>
+  <h1>{{title}}</h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+
+    <table *ngIf="users" class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <td>Nr.</td>
+          <td>Firstname</td>
+          <td>Lastname</td>
+          <td>Email address</td>
+          <td>Created</td>
+          <td>Updated</td>
+          <td>Roles</td>
+          <td>Logged in</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users; let i = index" app-user-item [user]="user" [index]="i"></tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>

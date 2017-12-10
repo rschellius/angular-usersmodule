@@ -1,0 +1,12 @@
+<td>{{index}}</td>
+<td>{{user?.firstname}}</td>
+<td>{{user?.lastname}}</td>
+<td>{{user?.email}}</td>
+<td>{{user?.meta?.createdAt | date :'fullDate'}}</td>
+<td>{{user?.meta?.updatedAt | date :'fullDate'}}</td>
+<td>
+  <span *ngFor="let role of user?.roles">
+    {{role}}
+  </span>
+</td>
+<td>{{user?.meta?.updatedAt | date :'fullDate'}}</td>
